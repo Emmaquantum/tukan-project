@@ -1,0 +1,46 @@
+# ===== Modelos entrenados (posteriores de PyMC/ArviZ, muy pesados) =====
+*.nc
+_partes_tvpvar/
+_partes_tvpvar2/
+
+# ===== Archivos de librerías / Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ===== Entornos virtuales =====
+.venv/
+venv/
+env/
+.conda/
+
+# ===== Archivos de hash / checksums =====
+*.sha
+*.sha1
+*.sha256
+*.sha512
+
+# ===== Credenciales (NO subir) =====
+Data/tokens.json
+.env
+
+# ===== Cachés de datos (se regeneran solas) =====
+Data/macro_cache.csv
+Data/macro_cache_viejo_fred.csv
+Data/macro_fred.csv
+
+# ===== Sistema operativo / editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# tokens_ejemplo.json contiene claves reales en esta PC
+Data/tokens_ejemplo.json
